@@ -1,0 +1,240 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+  height: 650px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+
+/** background image **/
+
+header {
+  background: url('../img/header-pic-five.png');
+  background-size: cover;
+  height: 800px;
+}
+
+/** heading ONE **/
+
+header h1 {
+  color: #000000;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  padding: 50px 0;
+}
+
+/** site navigation **/
+
+nav {
+  float: right;
+  padding: 75px 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #990033;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-left: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/** heading TWO **/
+
+header h2 {
+  clear:both;
+  color: #000000;
+  font-family: 'Lora',serif;
+  font-size: 72px;
+  line-height: 80px;
+  padding: 20px 0;
+  width: 1000px;
+}
+
+header h2 span {
+  color: #990033;
+}
+
+.highlight {
+  color: #990033;
+}
+/***** ABOUT *****/
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+/** heading **/
+
+#about h2 {
+  font-family: 'Lora', serif;
+  font-size: 36pt;
+  font-weight: bold;
+}
+
+/** paragraph **/
+
+#about p {
+  color: #7f7f7f;
+  font-size: 21px;
+  line-height: 40px;
+  padding-right: 50px;
+}
+
+/***** WORK *****/
+
+/** general settings for the WORK section **/
+
+#work {
+  background-color: #cc0044;
+  color: #DCDCDC;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+/** for the icons **/
+
+#work img {
+  padding-bottom: 30px;
+}
+
+/** heading  THREE**/
+
+#work h3 {
+  color: #DCDCDC;
+  font-size: 24px;
+  margin: 0 auto;
+  width: 189px;
+}
+
+/** paragraph **/
+
+#work p {
+  color: color: #DCDCDC;
+  font-family: 'Lora', serif;
+  font-size: 18pt;
+  line-height: 30px;
+  padding: 0 35px;
+}
+
+/***** CONTACT *****/
+
+/** general settings for the CONTACT section **/
+
+#contact {
+  background-color: #ebf0fa;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+/** for the CONTACT picture **/
+
+#contact-img {
+  border: 12px solid #ffffff;
+}
+
+/** about the padding **/
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+
+/** for the e-mail icon **/
+
+#envelope {
+  padding: 0 10px 0 115px;
+}
+
+/** for the headings in CONTACT **/
+
+#contact h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+}
+
+#email-header {
+  font-size: 32px;
+  font-weight: 400;
+  margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+  font-size: 29px;
+  font-weight: 700;
+  margin: 40px 0 0 0;
+}
+
+/** for the links in the CONTACT section **/
+
+#contact a {
+  color: #990033;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/** for the socialmedia icons **/
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 48px;
+}
+
+/***** back-to-top-button *****/
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #990033; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: black; /* Add a black background on hover */
+}

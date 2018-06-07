@@ -1,0 +1,158 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #ebf0fa;
+  height: 1250px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+
+/** heading ONE **/
+
+header h1 {
+  clear:both;
+  color: #000000;
+  font-family: 'Lora', serif;
+  font-size: 50px;
+  float:left;
+  padding-top: 25px;
+}
+
+header h1 span {
+  color: #990033;
+}
+
+/** site navigation **/
+
+nav {
+  height: 15px;
+  clear: both;
+  float: right;
+  padding: 75px 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #990033;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-left: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/** Picture **/
+
+#picture {
+  clear: right;
+  float: right;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+/***** MAIN *****/
+
+main {
+  clear: left;
+  float:left;
+  padding-top: 135px;
+}
+
+.skills {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+/***** CONTACT *****/
+
+/** general settings for the CONTACT section **/
+
+footer {
+  margin-bottom: 50px;
+}
+
+#contact .full-width {
+    clear: both;
+    padding: 110px 0;
+}
+
+/** for the CONTACT picture **/
+
+#contact-img {
+  border: 12px solid #ffffff;
+}
+
+/** about the padding **/
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+
+/** for the e-mail icon **/
+
+#envelope {
+  padding: 0 10px 0 115px;
+}
+
+/** for the headings in CONTACT **/
+
+#contact h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+}
+
+#email-header {
+  font-size: 32px;
+  font-weight: 400;
+  margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+  font-size: 29px;
+  font-weight: 700;
+  margin: 40px 0 0 0;
+}
+
+/** for the links in the CONTACT section **/
+
+#contact a {
+  color: #990033;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/** for the socialmedia icons **/
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 48px;
+}
